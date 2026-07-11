@@ -1,0 +1,19 @@
+.data-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .data-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    background-color: #f9f9f9;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+  }
+  

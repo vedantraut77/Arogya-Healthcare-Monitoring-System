@@ -1,0 +1,60 @@
+.analytics-container {
+    padding: 20px;
+    max-height: 100vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .chart-wrapper {
+    margin-bottom: 30px;
+    background: #f9fafb;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .chart-section {
+    margin-top: 12px;
+  }
+  
+  .analytics-selector{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    justify-content:center;
+
+    margin:20px 0 30px;
+}
+
+.patient-tab{
+
+    padding:10px 18px;
+
+    border:1px solid #5ebc8d;
+
+    background:white;
+
+    color:#2f855a;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.patient-tab:hover{
+
+    background:#eef9f2;
+}
+
+.patient-tab.active{
+
+    background:#5ebc8d;
+
+    color:white;
+}

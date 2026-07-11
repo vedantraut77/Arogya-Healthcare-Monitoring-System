@@ -1,0 +1,75 @@
+.patient-card{
+    width:340px;
+    background:white;
+    border:1px solid #d8d8d8;
+    border-radius:10px;
+
+    transition:0.2s;
+    cursor:pointer;
+}
+
+.patient-card:hover{
+    transform:translateY(-2px);
+    box-shadow:0 4px 10px rgba(0,0,0,.12);
+}
+
+.patient-header{
+    background:#5ebc8d;
+    color:white;
+
+    padding:14px 18px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    font-size:1.2rem;
+    font-weight:bold;
+}
+
+.patient-info{
+    padding:18px;
+}
+
+.patient-info p{
+    margin:10px 0;
+}
+
+.patient-info strong{
+    color:#444;
+}
+
+.timestamp{
+    margin-top:18px;
+    font-size:.9rem;
+    color:#666;
+}
+
+.patient-footer{
+    border-top:1px solid #ececec;
+    padding:12px;
+    text-align:center;
+    font-size:.9rem;
+    color:#2e8b57;
+}
+
+.status-good{
+    color:white;
+    font-size:.75rem;
+    background:#2e8b57;
+    padding:2px 8px;
+    border-radius:4px;
+}
+
+.status-critical{
+    color:white;
+    font-size:.75rem;
+    background:#d62828;
+    padding:2px 8px;
+    border-radius:4px;
+}
+
+.abnormal{
+    color:red;
+    font-weight:bold;
+}

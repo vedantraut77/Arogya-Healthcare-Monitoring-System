@@ -1,0 +1,19 @@
+# Website
+website/node_modules/
+website/dist/
+
+# Environment
+.env
+website/.env
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Coverage
+coverage/

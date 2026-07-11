@@ -1,0 +1,30 @@
+.summary-cards {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background: #5ab88a;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.05);
+    padding: 1rem 2rem;
+    text-align: center;
+    flex: 1 1 200px;
+    border-radius: solid 20px;
+  }
+  
+  .card h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .card p {
+    margin: 0.25rem 0 0;
+    color: #000000;
+    font-size: 1rem;
+  }
+  

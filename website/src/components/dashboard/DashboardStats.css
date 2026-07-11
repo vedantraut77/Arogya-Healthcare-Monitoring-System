@@ -1,0 +1,29 @@
+.dashboard-stats {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+  
+  .stat-card {
+    background-color: #5bbd8d;
+    color: white;
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .stat-card h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .stat-card p {
+    margin: 0.5rem 0 0;
+    color: black;
+    font-weight: 500;
+  }
+  

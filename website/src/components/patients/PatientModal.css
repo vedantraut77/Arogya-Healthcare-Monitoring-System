@@ -1,0 +1,240 @@
+/* Dark overlay */
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 999;
+}
+
+/* Main Modal */
+
+.patient-modal {
+    position: relative;
+
+    width: 760px;
+    max-width: 95%;
+
+    max-height: 90vh;
+    overflow-y: auto;
+
+    background: white;
+
+    border-radius: 12px;
+
+    padding: 2rem;
+
+    box-shadow: 0 12px 30px rgba(0,0,0,.25);
+}
+
+/* Close */
+
+.close-button {
+    position: absolute;
+
+    right: 18px;
+    top: 16px;
+
+    border: none;
+    background: transparent;
+
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.close-button:hover{
+    color:#d62828;
+}
+
+/* Heading */
+
+.patient-modal h2{
+    margin-bottom:1.5rem;
+    color:#1d3557;
+}
+
+/* Top Section */
+
+.modal-top{
+    display:flex;
+    gap:2rem;
+    margin-bottom:2rem;
+}
+
+/* Patient Image */
+
+.patient-photo{
+    width:170px;
+    height:170px;
+
+    border-radius:10px;
+
+    object-fit:cover;
+
+    border:2px solid #e6e6e6;
+}
+
+/* Right Side */
+
+.patient-basic{
+    flex:1;
+}
+
+/* Section */
+
+.section{
+    margin-top:1.5rem;
+}
+
+.section h3{
+    margin-bottom:1rem;
+    color:#2e8b57;
+
+    border-bottom:2px solid #e6e6e6;
+    padding-bottom:.4rem;
+}
+
+/* Details */
+
+.detail-row{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:.55rem 0;
+
+    border-bottom:1px solid #f2f2f2;
+}
+
+.detail-row strong{
+    color:#444;
+}
+
+.detail-row span{
+    color:#222;
+}
+
+/* Status */
+
+.stable{
+
+    color:#2e8b57;
+    font-weight:700;
+}
+
+.critical{
+
+    color:#d62828;
+    font-weight:700;
+}
+
+/* Buttons */
+
+.modal-actions{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:1rem;
+
+    margin-top:2rem;
+}
+
+.modal-actions button{
+
+    padding:.9rem;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:.95rem;
+
+    font-weight:600;
+
+    transition:.2s;
+}
+
+/* Location */
+
+.location-btn{
+
+    background:#2e8b57;
+    color:white;
+}
+
+.location-btn:hover{
+
+    background:#267349;
+}
+
+/* Guardian */
+
+.guardian-btn{
+
+    background:#1d3557;
+    color:white;
+}
+
+.guardian-btn:hover{
+
+    background:#16304f;
+}
+
+/* Ambulance */
+
+.ambulance-btn{
+
+    background:#d62828;
+    color:white;
+}
+
+.ambulance-btn:hover{
+
+    background:#b71c1c;
+}
+
+/* Close */
+
+.close-modal-btn{
+
+    background:#ececec;
+}
+
+.close-modal-btn:hover{
+
+    background:#dcdcdc;
+}
+
+/* Responsive */
+
+@media (max-width:768px){
+
+.modal-top{
+
+    flex-direction:column;
+    align-items:center;
+}
+
+.patient-photo{
+
+    width:150px;
+    height:150px;
+}
+
+.modal-actions{
+
+    grid-template-columns:1fr;
+}
+
+}

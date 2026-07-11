@@ -1,0 +1,86 @@
+body{
+    overflow: hidden;
+}
+
+.landingPage-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.text-section{
+    text-align: left;
+    font-family: "DM Sans", sans-serif;
+    padding: 35px;
+    flex: 1;
+}
+
+.landing-text{
+    margin: 5px 80px 50px 5px;
+}
+
+/* Only style the hero heading */
+.landing-text h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #2a2a2a;
+    line-height: 1.2;
+}
+
+.highlight{
+    color:#5ab88a;
+}
+
+.landing-text p{
+    font-size:16px;
+    color:#666;
+    margin-bottom:30px;
+    line-height:1.7;
+}
+
+.appointment-button{
+    display:flex;
+    align-items:center;
+    background:#00cc6a;
+    color:white;
+    font-family:"Poppins",sans-serif;
+    font-weight:600;
+    border:none;
+    border-radius:5px;
+    margin-left:5px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.appointment-button:hover{
+    background:#27ae60;
+}
+
+.plus-icon{
+    background:#7ecba6;
+    color:white;
+    padding:12px 15px;
+    margin-left:10px;
+    border-radius:4px;
+    font-weight:700;
+}
+
+.plus-icon:hover{
+    background:#45b089;
+}
+
+.landingPage-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.landingPage-image img{
+    width:700px;
+    max-width:100%;
+    height:auto;
+}
