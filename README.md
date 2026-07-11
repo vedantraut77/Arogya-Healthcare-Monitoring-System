@@ -177,21 +177,8 @@ npm run dev
 
 # 📷 Screenshots
 
-- Home Page
+- Website
 - <img width="1895" height="971" alt="image" src="https://github.com/user-attachments/assets/a6eb9a0d-a39c-4c4f-94f2-1357fe6e883f" />
-
-- Dashboard
-- <img width="1913" height="957" alt="image" src="https://github.com/user-attachments/assets/6e57c151-3607-459f-b02c-00dc50322992" />
-
-- Patient Monitoring
-- <img width="1892" height="960" alt="image" src="https://github.com/user-attachments/assets/63222e5e-e2d1-4294-aef1-78f4bbed92d7" />
-
-- Analytics
-- <img width="1917" height="965" alt="image" src="https://github.com/user-attachments/assets/2d04446b-1e0e-4c29-89c3-30a0d1a9914e" />
-
-- Alert Panel
-- <img width="1915" height="956" alt="image" src="https://github.com/user-attachments/assets/64db107b-a3f6-4953-8751-c2845d438b2e" />
-
 
 ---
 
