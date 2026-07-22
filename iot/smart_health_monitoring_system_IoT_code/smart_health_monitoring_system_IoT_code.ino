@@ -10,11 +10,18 @@
 #include "addons/RTDBHelper.h"
 
 // WiFi & Firebase Configuration
-#define WIFI_SSID "Peace"
-#define WIFI_PASSWORD "peace123"
-#define API_KEY "AIzaSyDKDyiwFr65Syt4eNlKAX2esc_f3KSWyEk"
-#define DATABASE_URL "https://arogya-real-time-e-healthcare-default-rtdb.asia-southeast1.firebasedatabase.app/"
-#define DATABASE_SECRET "opkxUMKj3VRxQydUlBJCAYDYTJWxfsS6rHOVKADl"
+/*
+Replace the placeholder values below with
+your own Wi-Fi and Firebase credentials.
+
+*/
+
+#define WIFI_SSID            "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD        "YOUR_WIFI_PASSWORD"
+
+#define API_KEY             "YOUR_FIREBASE_API_KEY"
+#define DATABASE_URL        "https://YOUR_PROJECT_ID-default-rtdb.REGION.firebasedatabase.app/"
+#define DATABASE_SECRET     "YOUR_DATABASE_SECRET"
 
 // LCD
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // Change to 0x3F if your LCD uses a different address
